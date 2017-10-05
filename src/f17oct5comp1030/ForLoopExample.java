@@ -56,6 +56,7 @@ public class ForLoopExample {
             if (die1.getFaceValue()+die2.getFaceValue()==2)
                 count++;
         }
+        System.out.printf("In 100,000 rolls, snake eyes came up %d times%n", count);
         
     }
 }
